@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopEase | Shop</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">🛍️ ShopEase</div>
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/shop/shop.html" class="active">Shop</a></li>
+      <li><a href="/order/order.html">Order</a></li>
+    </ul>
+  </nav>
+
+  <section class="shop-container">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Product 1">
+        <h3>Stylish Shoes</h3>
+        <p>$59.99</p>
+        <button onclick="addToCart('Stylish Shoes', 59.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Product 2">
+        <h3>Leather Bag</h3>
+        <p>$79.99</p>
+        <button onclick="addToCart('Leather Bag', 79.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Product 3">
+        <h3>Smart Watch</h3>
+        <p>$129.99</p>
+        <button onclick="addToCart('Smart Watch', 129.99)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 ShopEase. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
