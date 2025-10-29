@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: main
-          image: 203171087948.dkr.ecr.us-east-1.amazonaws.com/main:latest
+          image: 656701891231.dkr.ecr.ap-south-1.amazonaws.com/root:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
